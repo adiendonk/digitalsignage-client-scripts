@@ -1,3 +1,3 @@
 #!/bin/bash
 
-. ./armbian/setup.sh
+. ./armbian/setup.bash
