@@ -1,3 +1,3 @@
 #!/bin/bash
 
-source /setup/install-chromium.sh
+source ./setup/install-chromium.sh
