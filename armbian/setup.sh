@@ -3,6 +3,12 @@
 # Install Firefox-ESR
 sudo apt -y install firefox-esr
 
-sudo cp files/rc.local /etc/rc.local
+sudo chmod +x files/startup.sh
 
-sudo chmod +x /etc/rc.local
+#write out current crontab
+crontab -l > mycron
+#echo new cron into cron file
+echo "@reboot sh $HOME/digitalsignage-client-scripts/files/startup.sh" >> mycron
+#install new cron file
+crontab mycron
+rm mycron
