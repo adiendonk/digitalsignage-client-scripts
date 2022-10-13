@@ -3,12 +3,6 @@
 # Install Firefox-ESR
 sudo apt -y install firefox-esr
 
-sudo chmod +x files/startup.sh
+sudo cp files/startihsign.desktop ~/.config/autostart/
 
-#write out current crontab
-crontab -l > mycron
-#echo new cron into cron file
-echo "@reboot ihsanlab sh $HOME/digitalsignage-client-scripts/files/startup.sh" >> mycron
-#install new cron file
-crontab mycron
-rm mycron
+sudo chmod +x files/startup.sh
