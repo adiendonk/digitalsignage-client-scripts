@@ -11,5 +11,3 @@ xset s off -dpms
 
 # Run Player App on firefox-esr
 firefox-esr --kiosk player.ihsign.ihsanlab.link
-
-exit 0
