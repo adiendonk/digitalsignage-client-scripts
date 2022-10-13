@@ -8,12 +8,13 @@ sudo cp files/startihsign.desktop ~/.config/autostart/
 sudo chmod +x files/startup.sh
 
 # Add Display Orientation Setting Helper File
-sudo cp files/DisplayOrientation.sh /home/ihsanlab/Desktop/
+sudo cp files/DisplayOrientation.desktop /home/ihsanlab/Desktop/
 
-sudo chmod +x /home/ihsanlab/Desktop/DisplayOrientation.sh
+sudo chmod +x files/DisplayOrientation.sh
+sudo chmod +x /home/ihsanlab/Desktop/DisplayOrientation.desktop
 
 
 # Add Network Setting Helper File
-sudo cp files/NetworkSetting.sh /home/ihsanlab/Desktop/
+sudo cp files/NetworkSetting.desktop /home/ihsanlab/Desktop/
 
-sudo chmod +x /home/ihsanlab/Desktop/NetworkSetting.sh
+sudo chmod +x /home/ihsanlab/Desktop/NetworkSetting.desktop
